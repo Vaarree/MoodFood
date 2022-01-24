@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_moodForm"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/location"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where do you want to eat?"
+        android:textSize="13pt"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rg_location"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jakarta"
+            android:textSize="11pt"
+            android:textColor="#FF0000"
+            android:id="@+id/rbtn_location_jakarta"
+            android:buttonTint="#FF0000"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bekasi"
+            android:textSize="11pt"
+            android:id="@+id/rbtn_location_bekasi"
+            android:textColor="#FF0000"
+            android:buttonTint="#FF0000"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+
+        android:layout_marginTop="30dp"
+        android:background="@drawable/restaurant_entry"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btn_location_nextBtn"
+        android:layout_gravity="center" />
+</LinearLayout>

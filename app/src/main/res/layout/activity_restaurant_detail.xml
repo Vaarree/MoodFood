@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetail"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="131dp"
+        android:src="@drawable/chefhate"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detail_txt_restaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Name"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibe"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#C12121"/>
+
+    <TextView
+        android:id="@+id/detail_txt_vibedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vibedt"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#C12121"/>
+
+    <TextView
+        android:id="@+id/detail_txt_locationdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locationdt"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#C12121"/>
+
+    <TextView
+        android:id="@+id/detail_txt_addressdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addressdt"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110pt"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detail_fragment_mapAPI"
+            android:name="com.google.android.gms.maps.SupportMapFragment">
+        </fragment>
+    </LinearLayout>
+
+
+
+</LinearLayout>

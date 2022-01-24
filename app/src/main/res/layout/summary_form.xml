@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="25dp"
+    android:paddingLeft="25dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foodsearch"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#C12121"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location_dt"
+        android:textSize="35sp"
+        android:id="@+id/textView_summary_location"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of Food"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#C12121"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type_dt"
+        android:textSize="35sp"
+        android:id="@+id/textView_summary_foodType"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibe"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#C12121"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vibe_dt"
+        android:textSize="35sp"
+        android:id="@+id/textView_summary_vibe"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center"
+        android:id="@+id/btn_summary_back"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/restaurant_entry"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/btn_summary_search"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/restaurant_entry"
+        android:backgroundTint="#FF0000"
+        android:text="Search for restaurant"
+        android:textColor="#FFFFFF"/>
+
+
+
+</LinearLayout>
